@@ -1,4 +1,4 @@
-const URL = 'http://zero.webappsecurity.com/feedback.html'
+import { base_feedback_url} from '../../../fixtures/config';
 const NAME_INPUT = '#name'
 const EMAIL_INPUT = '#email'
 const SUBJECT_INPUT = '#subject'
@@ -7,7 +7,7 @@ const SUBMIT_BUTTON = 'input[name="submit"]'
 
 class FeedbackPage {
 	static visit() {
-		cy.visit(URL)
+		cy.visit(base_feedback_url)
 	}
 
 	static fillFeedbackForm() {
