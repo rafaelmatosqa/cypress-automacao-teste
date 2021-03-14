@@ -1,0 +1,25 @@
+{
+  "name": "cypressautomacaoteste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:tests":"cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelmatosqa/CypressAutomacaoTeste.git"
+  },
+  "author": "Rafael Matos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelmatosqa/CypressAutomacaoTeste/issues"
+  },
+  "homepage": "https://github.com/rafaelmatosqa/CypressAutomacaoTeste#readme",
+  "dependencies": {
+    "cypress": "^6.6.0",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "prettier": "^2.2.1"
+  },
+ 
