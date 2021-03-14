@@ -1,0 +1,60 @@
+[
+  {
+    "description": "  As a costumer\n  I can send my feedback via form",
+    "keyword": "Feature",
+    "name": "Send Feedback",
+    "line": 1,
+    "id": "send-feedback",
+    "tags": [],
+    "uri": "feedback.feature",
+    "elements": [
+      {
+        "id": "send-feedback;submit-feedbacl-form",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Submit Feedbacl Form",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open feedback page",
+            "result": {
+              "status": "skipped",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I fill feedback form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on send button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I see \"/sendFeedback.html\" in the url",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
